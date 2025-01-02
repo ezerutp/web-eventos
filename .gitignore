@@ -1,0 +1,54 @@
+# Logs de Laravel
+/storage/*.key
+/storage/logs/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+!storage/.gitignore
+
+# Archivos de entorno
+.env
+.env.*.php
+
+# Archivos de configuración del servidor
+Homestead.yaml
+Homestead.json
+.vagrant/
+
+# Dependencias de Composer
+/vendor/
+
+# Dependencias de Node.js
+/node_modules/
+
+# Compilaciones de frontend
+/public/hot
+/public/storage
+/public/css/app.css
+/public/js/app.js
+/public/js/*.map
+/public/css/*.map
+
+# Cache del IDE
+/.idea/
+/*.sublime-project
+/*.sublime-workspace
+/.vscode/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Otros archivos temporales o de depuración
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar paquetes y dependencias bloqueadas
+package-lock.json
+yarn.lock
+
+# Ignorar cualquier archivo o carpeta temporal
+*.tmp
+*.temp
