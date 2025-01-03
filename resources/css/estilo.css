@@ -88,7 +88,7 @@ img {
 }
 
 .nav__logo span {
-    font-size: var(--font-semi);
+    font-weight: var(--font-semi);
 }
 
 .nav__toggle,
@@ -134,3 +134,50 @@ img {
 .show-menu {
     top: 0;
 }
+
+/* HOME */
+.home {
+    position: relative;
+}
+
+.home__container {
+    padding-top: 10.5rem;
+    height: 100vh;
+}
+
+.home__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: saturate(1.3);
+}
+
+.home__data {
+    position: relative;
+    text-align: center;
+    z-index: var(--z-tooltip);
+}
+
+.home__title {
+    font-size: var(--b-font-size);
+    margin-bottom: 1rem;
+}
+
+.home__description {
+    font-weight: var(--font-medio);
+    margin-bottom: 2rem;
+}
+
+.home__button {
+    display: inline-flex;
+    background: var(--gradient-color);
+    color: var(--black-color);
+    font-weight: var(--font-semi);
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    transition: box-shadow .4s;
+} 
